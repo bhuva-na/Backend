@@ -21,7 +21,7 @@ mysql= MySQL(app)
 JWTManager(app)
 
 portfolio = []
-api_key="cq5s2j9r01qhs6iu39bgcq5s2j9r01qhs6iu39c0"
+api_key="cq5s2j9r01qhs6iu39bgcq5s2j9r01qhs6iu39c0" 
 
 @app.route("/login", methods=['POST', 'GET'])
 def login():
